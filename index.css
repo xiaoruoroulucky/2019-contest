@@ -1,0 +1,42 @@
+table {
+    border-collapse: collapse;     /*合并表格的边框*/
+    margin: auto;
+}
+td {
+    width: 60px;
+    height: 60px;
+    background-color: #000;
+    background: url(img/ground.png);
+}
+.wall {
+    background: url(img/wall.png);
+    background-size: 60px 60px;
+}
+
+.ground {
+    background: url(img/ground.png);
+    background-size: 60px 60px;
+}
+
+.man {
+    background: url(img/man.png);
+    background-size: 60px 60px;
+}
+
+.real {
+    background: url(img/real.png);      /*box*/
+    background-size: 60px 60px;
+}
+
+.target {
+    background: url(img/target.png);
+    background-size: 60px 60px;      /*圆点*/
+}
+
+.arrive {
+    background: url(img/arrive.png);
+    background-size:60px 60px;
+}
+.prompt {
+    float: left;
+}
